@@ -1,5 +1,5 @@
 package com.pgr301.exam;
 
-public class BackEndExcept RuntimeExc {
-    
+public class BackEndException extends RuntimeException {
+    String test = "hello";
 }
